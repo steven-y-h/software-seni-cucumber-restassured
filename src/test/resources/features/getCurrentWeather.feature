@@ -1,7 +1,7 @@
 @Regression
 Feature: Get Current Weather Feature
 
-  @Positive
+  @Positive @getCurrentWeather
   Scenario: Get the current weather data of Terban, Sleman, Yogyakarta
     When send "GET" request to "http://api.openweathermap.org/data/2.5/weather" with queryParams
       | lat   | 7.7220                           |

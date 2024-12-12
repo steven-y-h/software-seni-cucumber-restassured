@@ -12,7 +12,7 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
         monochrome = true,
         snippets = CAMELCASE,
         stepNotifications = true,
-        tags = "@Positive",
+        tags = "@Regression",
         plugin = {"pretty", "html:target/cucumber-report.html"}
 )
 public class CucumberRunner {

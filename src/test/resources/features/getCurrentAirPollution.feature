@@ -1,7 +1,7 @@
 @Regression
 Feature: Get Current Air Pollution Feature
 
-  @Positive
+  @Positive @getCurrentAirPollution
   Scenario: Get the current air pollution index of Terban, Sleman, Yogyakarta
     Given send "GET" request to "http://api.openweathermap.org/data/2.5/air_pollution" with queryParams
       | lat   | 7.7220                           |
